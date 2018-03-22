@@ -8,6 +8,10 @@ let mainWindow;
 
 // Listen for app to be ready 
 app.on('ready', function(){
+    //Delete default menu
+    electron.app.on('browser-window-created',function(e,window) {
+        window.setMenu(null);
+    });
     // Create new window
     mainWindow = new BrowserWindow({});
     // Load html into window
