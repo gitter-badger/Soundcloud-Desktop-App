@@ -1,0 +1,18 @@
+{
+  "name": "soundcloud",
+  "version": "1.0.0",
+  "description": "Soundcloud Desktop App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "Soundcloud-Desktop-App"
+  },
+  "author": "Audition CSBlock",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.8.4"
+  }
+}
