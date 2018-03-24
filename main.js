@@ -21,3 +21,8 @@ app.on('ready', function(){
         slashes: true
     }));
 });
+
+//Close app when exited
+app.on('window-all-closed', () => {
+    app.quit()
+})
