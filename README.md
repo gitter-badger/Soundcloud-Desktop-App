@@ -9,3 +9,4 @@ For the people without npm, you can download the version that fits your pc on th
 
 # Credit's
 [npm/node.js](https://nodejs.org/) and [electron](https://electronjs.org/) for making cross platform apps so easy.  
+[Inno Setup](http://www.jrsoftware.org/isinfo.php) for the installer
