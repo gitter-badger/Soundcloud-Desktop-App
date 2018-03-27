@@ -13,7 +13,7 @@ app.on('ready', function(){
         window.setMenu(null);
     });
     // Create new window
-    mainWindow = new BrowserWindow({});
+    mainWindow = new BrowserWindow({width: 1113, height: 600});
     // Load html into window
     mainWindow.loadURL(url.format({
         pathname: path.join(__dirname, 'mainWindow.html'),
