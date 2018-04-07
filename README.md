@@ -5,11 +5,16 @@ This is an Electron based Desktop App
 [![Github latest release](https://img.shields.io/github/tag/Audition-CSBlock/Soundcloud-Desktop-App.svg?style=flat-square)](https://github.com/Audition-CSBlock/Soundcloud-Desktop-App/releases/latest)
 [![Github license](https://img.shields.io/github/license/Audition-CSBlock/Soundcloud-Desktop-App.svg?style=flat-square)](https://github.com/Audition-CSBlock/Soundcloud-Desktop-App/blob/master/LICENSE)
 
-# Installation
-If you want to run it now, you have to install npm.  
+# Installation with nodejs
+If you want to run the app without packaging it / downloading the packaged version, you have to install npm.  
 npm is included into Node.js which you can download [here](https://nodejs.org/en/download/)  
+Once you have that installed, you can run this in the root of the project:
+```
+npm start
+```
+# Installation without nodejs
   
-For the people without npm, you can download the version that fits your pc on the [release page](https://github.com/Audition-CSBlock/Soundcloud-Desktop-App/releases)
+For the people without nodejs, you can download the executable version that fits your pc on the [release page](https://github.com/Audition-CSBlock/Soundcloud-Desktop-App/releases)
 
 # Credit's
 [npm/node.js](https://nodejs.org/) and [electron](https://electronjs.org/) for making cross platform apps so easy.  
