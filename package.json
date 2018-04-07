@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron .",
     "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
-    "package-win": "electron-packager . Soundcloud --overwrite --asar --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.ProductName=\"Soundcloud\"",    
+    "package-win": "electron-packager . Soundcloud --overwrite --asar --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.ProductName=\"Soundcloud\"",
     "package-linux": "electron-packager . Soundcloud --overwrite --asar --platform=linux --arch=x64 --icon=assets/icons/png/icon.png --prune=true --out=release-builds"
   },
   "repository": {
@@ -19,6 +19,7 @@
     "electron": "^1.8.4"
   },
   "devDependencies": {
+    "electron-log": "^2.2.14",
     "electron-packager": "^11.1.0"
   }
 }
