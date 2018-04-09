@@ -21,4 +21,6 @@ For the people without nodejs, you can download the executable version that fits
 
 # Credit's
 [npm/node.js](https://nodejs.org/) and [electron](https://electronjs.org/) for making cross platform apps so easy.  
-[Inno Setup](http://www.jrsoftware.org/isinfo.php) for the installer
+[Inno Setup](http://www.jrsoftware.org/isinfo.php) for the installer.
+[megahertz](https://github.com/megahertz) for making electron-log.
+[electron-userland](https://github.com/electron-userland) for making electron-packager.
