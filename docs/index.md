@@ -5,6 +5,8 @@ It is an Electron based Desktop App
 [![npm version](https://img.shields.io/badge/npm-v5.6.0-blue.svg?style=flat-square)](https://github.com/npm/npm/releases/tag/v5.6.0)
 [![Github latest release](https://img.shields.io/github/tag/Audition-CSBlock/Soundcloud-Desktop-App.svg?style=flat-square)](https://github.com/Audition-CSBlock/Soundcloud-Desktop-App/releases/latest)
 [![Github license](https://img.shields.io/github/license/Audition-CSBlock/Soundcloud-Desktop-App.svg?style=flat-square)](https://github.com/Audition-CSBlock/Soundcloud-Desktop-App/blob/master/LICENSE)
+![Top language](https://img.shields.io/github/languages/top/Audition-CSBlock/Soundcloud-Desktop-App.svg?style=flat-square)
+[![Total downloads](https://img.shields.io/github/downloads/Audition-CSBlock/Soundcloud-Desktop-App/total.svg?style=flat-square)](https://github.com/Audition-CSBlock/Soundcloud-Desktop-App/releases)
 
 # Installation with nodejs
 If you want to run the app without packaging it / downloading the packaged version, you have to install npm.  
