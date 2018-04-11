@@ -8,18 +8,21 @@ var fs = require('fs');
 
 let mainWindow;
 
-// Listen for app to be ready 
-app.on('ready', function(){
-    // Logging
-    log.error();
-    log.debug();
-    log.warn();
-    log.transports.file.level = 'error', 'debug', 'warn';
+// Logging
+function logging() {
+    log.info(electron);
+    log.transports.file.level = 'info';
     log.transports.file.format = '{h}:{i}:{s}:{ms} {text}';
     log.transports.file.maxSize = 5 * 1024 * 1024;
     log.transports.file.file = __dirname + '/log.txt';
     log.transports.file.streamConfig = { flags: 'w' };
     log.transports.file.stream = fs.createWriteStream('log.txt');
+}
+
+// Listen for app to be ready 
+app.on('ready', function(){
+    // Activate Logging
+    logging();
     //Delete default menu
     electron.app.on('browser-window-created',function(e,window) {
         window.setMenu(null);
