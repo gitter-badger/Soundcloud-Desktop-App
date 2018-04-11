@@ -1,4 +1,6 @@
 # Soundcloud-Desktop-App
+
+[![Join the chat at https://gitter.im/Soundcloud-Desktop-App/Lobby](https://badges.gitter.im/Soundcloud-Desktop-App/Lobby.svg)](https://gitter.im/Soundcloud-Desktop-App/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 This is an Electron based Desktop App, you can find the website [here](https://audition-csblock.github.io/Soundcloud-Desktop-App/)  
 [![Codefresh build status]( https://g.codefresh.io/api/badges/build?repoOwner=Audition-CSBlock&repoName=Soundcloud-Desktop-App&branch=master&pipelineName=Soundcloud-Desktop-App&accountName=auditioncsblock&type=cf-1)]( https://g.codefresh.io/repositories/Audition-CSBlock/Soundcloud-Desktop-App/builds?filter=trigger:build;branch:master;service:5abaa5dc8ce72d0001007c25~Soundcloud-Desktop-App)
 [![npm version](https://img.shields.io/badge/npm-v5.6.0-blue.svg?style=flat-square)](https://github.com/npm/npm/releases/tag/v5.6.0)
